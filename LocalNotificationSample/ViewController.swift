@@ -65,10 +65,10 @@ extension ViewController:UNUserNotificationCenterDelegate{
     func userNotificationCenter(_ center: UNUserNotificationCenter, willPresent notification: UNNotification, withCompletionHandler completionHandler: (UNNotificationPresentationOptions) -> Void) {
         
         print("Notification being triggered")
-        //You can either present alert ,sound or badge while the app is in foreground too with ios 10
-        completionHandler( UNNotificationPresentationOptions.alert)
-        //completionHandler( UNNotificationPresentationOptions.alert)
-        //completionHandler( UNNotificationPresentationOptions.alert)
+        //You can either present alert ,sound or increase badge while the app is in foreground too with ios 10
+         completionHandler( UNNotificationPresentationOptions.alert)
+        // completionHandler( UNNotificationPresentationOptions.sound)
+        // completionHandler( UNNotificationPresentationOptions.badge)
         
     }
   
