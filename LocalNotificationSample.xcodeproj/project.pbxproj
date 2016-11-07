@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		29FA6F781DD0607D00215F0E /* monkey.png in Resources */ = {isa = PBXBuildFile; fileRef = 29FA6F771DD0607D00215F0E /* monkey.png */; };
 		F8B0EA351D1062D80038CD7F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8B0EA341D1062D80038CD7F /* AppDelegate.swift */; };
 		F8B0EA371D1062D80038CD7F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8B0EA361D1062D80038CD7F /* ViewController.swift */; };
 		F8B0EA3A1D1062D80038CD7F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F8B0EA381D1062D80038CD7F /* Main.storyboard */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		29FA6F771DD0607D00215F0E /* monkey.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = monkey.png; sourceTree = "<group>"; };
 		F8B0EA311D1062D80038CD7F /* LocalNotificationSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LocalNotificationSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8B0EA341D1062D80038CD7F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F8B0EA361D1062D80038CD7F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -54,6 +56,7 @@
 		F8B0EA331D1062D80038CD7F /* LocalNotificationSample */ = {
 			isa = PBXGroup;
 			children = (
+				29FA6F771DD0607D00215F0E /* monkey.png */,
 				F8B0EA341D1062D80038CD7F /* AppDelegate.swift */,
 				F8B0EA361D1062D80038CD7F /* ViewController.swift */,
 				F8B0EA381D1062D80038CD7F /* Main.storyboard */,
@@ -123,6 +126,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				29FA6F781DD0607D00215F0E /* monkey.png in Resources */,
 				F8B0EA3F1D1062D80038CD7F /* LaunchScreen.storyboard in Resources */,
 				F8B0EA3C1D1062D80038CD7F /* Assets.xcassets in Resources */,
 				F8B0EA3A1D1062D80038CD7F /* Main.storyboard in Resources */,
